@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-
+@property (nonatomic,assign) CGFloat t_shirtMaxPrice;
 @end

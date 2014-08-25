@@ -1,5 +1,5 @@
 //
-//  Product.m
+//  Sinma.h
 //  SimulatedEcosystem
 //
 //  Created by YPL on 14-8-25.
@@ -8,13 +8,6 @@
 
 #import "Product.h"
 
-@implementation Product
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
+@interface Sinma : Product
 
-    }
-    return self;
-}
 @end

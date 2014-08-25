@@ -7,6 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Sinma.h"
+#import "Ck.h"
+#import "Person.h"
 
 @interface SimulatedEcosystemTests : XCTestCase
 
@@ -29,6 +32,19 @@
 - (void)testExample
 {
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+/**
+ * <150 t-shirt
+ */
+- (void)testBuyTshirt{
+    Ck *ck = [[Ck alloc] init];
+    Person *person = [[Person alloc] init];
+    person.t_shirtMaxPrice = 150;
+//    XCTAssertTrue(person.t_shirtMaxPrice > ck.price, @"person can buy this t-shirt");
+    
+    Sinma *sinma = [[Sinma alloc] init];
+    XCTAssertTrue(person.t_shirtMaxPrice > sinma.price, @"");
 }
 
 @end

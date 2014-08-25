@@ -26,7 +26,10 @@
 		C52CB98D19AADBC00094F861 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52CB96519AADBC00094F861 /* CoreData.framework */; };
 		C52CB99519AADBC10094F861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C52CB99319AADBC10094F861 /* InfoPlist.strings */; };
 		C52CB99719AADBC10094F861 /* SimulatedEcosystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB99619AADBC10094F861 /* SimulatedEcosystemTests.m */; };
-		C52CB9B319AB25BB0094F861 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB9B219AB25BB0094F861 /* Person.m */; };
+		C52CB9B619AB26240094F861 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB9B519AB26240094F861 /* Person.m */; };
+		C52CB9B919AB26360094F861 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB9B819AB26360094F861 /* Product.m */; };
+		C52CB9BC19AB29260094F861 /* Ck.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB9BB19AB29260094F861 /* Ck.m */; };
+		C52CB9BF19AB293D0094F861 /* Sinma.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB9BE19AB293D0094F861 /* Sinma.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +67,14 @@
 		C52CB99219AADBC10094F861 /* SimulatedEcosystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatedEcosystemTests-Info.plist"; sourceTree = "<group>"; };
 		C52CB99419AADBC10094F861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C52CB99619AADBC10094F861 /* SimulatedEcosystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulatedEcosystemTests.m; sourceTree = "<group>"; };
-		C52CB9B119AB25BB0094F861 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		C52CB9B219AB25BB0094F861 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C52CB9B419AB26240094F861 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C52CB9B519AB26240094F861 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C52CB9B719AB26360094F861 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		C52CB9B819AB26360094F861 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		C52CB9BA19AB29260094F861 /* Ck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ck.h; sourceTree = "<group>"; };
+		C52CB9BB19AB29260094F861 /* Ck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ck.m; sourceTree = "<group>"; };
+		C52CB9BD19AB293D0094F861 /* Sinma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sinma.h; sourceTree = "<group>"; };
+		C52CB9BE19AB293D0094F861 /* Sinma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sinma.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +185,14 @@
 		C52CB9B019AB25BB0094F861 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				C52CB9B119AB25BB0094F861 /* Person.h */,
-				C52CB9B219AB25BB0094F861 /* Person.m */,
+				C52CB9B419AB26240094F861 /* Person.h */,
+				C52CB9B519AB26240094F861 /* Person.m */,
+				C52CB9B719AB26360094F861 /* Product.h */,
+				C52CB9B819AB26360094F861 /* Product.m */,
+				C52CB9BA19AB29260094F861 /* Ck.h */,
+				C52CB9BB19AB29260094F861 /* Ck.m */,
+				C52CB9BD19AB293D0094F861 /* Sinma.h */,
+				C52CB9BE19AB293D0094F861 /* Sinma.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -280,10 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52CB9B319AB25BB0094F861 /* Person.m in Sources */,
+				C52CB9B919AB26360094F861 /* Product.m in Sources */,
+				C52CB9B619AB26240094F861 /* Person.m in Sources */,
 				C52CB98119AADBC00094F861 /* DetailViewController.m in Sources */,
+				C52CB9BF19AB293D0094F861 /* Sinma.m in Sources */,
 				C52CB97E19AADBC00094F861 /* MasterViewController.m in Sources */,
 				C52CB97219AADBC00094F861 /* AppDelegate.m in Sources */,
+				C52CB9BC19AB29260094F861 /* Ck.m in Sources */,
 				C52CB96E19AADBC00094F861 /* main.m in Sources */,
 				C52CB97B19AADBC00094F861 /* SimulatedEcosystem.xcdatamodeld in Sources */,
 			);

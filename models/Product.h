@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Product : NSObject
-
+@property (nonatomic,copy) NSString *name;
+@property (nonatomic,assign) CGFloat price;
 @end
