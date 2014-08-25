@@ -47,4 +47,12 @@
     XCTAssertTrue(person.t_shirtMaxPrice > sinma.price, @"");
 }
 
+- (void)testArc{
+    NSString *str = [[NSString alloc] initWithFormat:@"%@",@"hh"];
+    __weak NSString *str1 = str;
+    str = nil;
+    NSLog(@"%@",str1); //输出是"(null)"
+    XCTAssertNotNil(str1, @"");
+}
+
 @end
