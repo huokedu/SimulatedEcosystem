@@ -26,6 +26,7 @@
 		C52CB98D19AADBC00094F861 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52CB96519AADBC00094F861 /* CoreData.framework */; };
 		C52CB99519AADBC10094F861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C52CB99319AADBC10094F861 /* InfoPlist.strings */; };
 		C52CB99719AADBC10094F861 /* SimulatedEcosystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB99619AADBC10094F861 /* SimulatedEcosystemTests.m */; };
+		C52CB9AF19AB25560094F861 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C52CB9AE19AB25560094F861 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		C52CB99219AADBC10094F861 /* SimulatedEcosystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatedEcosystemTests-Info.plist"; sourceTree = "<group>"; };
 		C52CB99419AADBC10094F861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C52CB99619AADBC10094F861 /* SimulatedEcosystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulatedEcosystemTests.m; sourceTree = "<group>"; };
+		C52CB9AD19AB25560094F861 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C52CB9AE19AB25560094F861 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 		C52CB95319AADBC00094F861 = {
 			isa = PBXGroup;
 			children = (
+				C52CB9AC19AB253D0094F861 /* model */,
 				C52CB96719AADBC00094F861 /* SimulatedEcosystem */,
 				C52CB99019AADBC10094F861 /* SimulatedEcosystemTests */,
 				C52CB95E19AADBC00094F861 /* Frameworks */,
@@ -167,6 +171,15 @@
 				C52CB99319AADBC10094F861 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C52CB9AC19AB253D0094F861 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C52CB9AD19AB25560094F861 /* Person.h */,
+				C52CB9AE19AB25560094F861 /* Person.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52CB9AF19AB25560094F861 /* Person.m in Sources */,
 				C52CB98119AADBC00094F861 /* DetailViewController.m in Sources */,
 				C52CB97E19AADBC00094F861 /* MasterViewController.m in Sources */,
 				C52CB97219AADBC00094F861 /* AppDelegate.m in Sources */,
@@ -486,6 +500,7 @@
 				C52CB99C19AADBC10094F861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52CB99D19AADBC10094F861 /* Build configuration list for PBXNativeTarget "SimulatedEcosystemTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +509,7 @@
 				C52CB99F19AADBC10094F861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
